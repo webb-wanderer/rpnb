@@ -1,0 +1,56 @@
+body
+{
+	background-color: #FFFFBF;
+	background-image: url(/images/SpiralT.gif);
+	background-repeat: repeat-y;
+	color: black;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 17.5px;
+}
+
+h1 { text-align: center; }
+
+h2
+{
+	text-align: center;
+	text-transform: inherit;
+	color: blue;
+}
+
+h3
+{
+	text-align: center;
+	text-transform: inherit;
+	color: blue;
+}
+
+blockquote { font-size: 17.5px; }
+dd { padding: 1em 0 1em 36px; }
+dt { background-color: #ccffcc; }
+dt:before { content: url(/images/bullet.png); }
+table { margin: 0 auto 0 auto; }
+.blue { color: blue; }
+
+.dds
+{
+	color: red;
+	font-family: Verdana, sans-serif;
+	font-size: xx-large;
+}
+
+.dds2
+{
+	color: #353c91;
+	font-family: Verdana, sans-serif;
+	font-size: larger;
+}
+
+.green { color: green; }
+.red { color: red; }
+
+.rnb
+{
+	font-family: Verdana, sans-serif;
+	font-weight: normal;
+	color: #60609f;
+}
