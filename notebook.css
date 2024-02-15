@@ -1,0 +1,81 @@
+body
+{
+	background-color: #FFFFBF;
+	color: black;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 17px;
+}
+
+h1
+{
+	font-size: 24px;
+	text-align: center;
+}
+
+h2
+{
+	color: #60609f;
+	font-size: 22px;
+	text-align: center;
+	text-transform: inherit;
+}
+
+h3
+{
+	color: #60609f;
+	font-size: 20px;
+	text-align: center;
+	text-transform: inherit;
+}
+h4 { font-weight: bold; }
+
+blockquote { font-size: 16px; }
+dd { padding: 1em 0 1em 36px; }
+dt { background-color: #ccffcc; }
+dt:before { content: url(/images/bullet.png); }
+table { margin: 0 auto 0 auto; }
+
+.dds
+{
+	color: red;
+	font-family: Verdana, sans-serif;
+}
+
+.dds2
+{
+	color: #60609f;
+	font-family: Verdana, sans-serif;
+}
+
+.green { color: green; }
+.red { color: red; }
+
+.rnb
+{
+	font-family: Verdana, sans-serif;
+	font-weight: normal;
+	color: #60609f;
+}
+
+@media (min-width: 768px)
+{
+	h1 { font-size: 30px; }
+	h2 { font-size: 27.5px; }
+	h3 { font-size: 25px; }
+	.dds { font-size: x-large; }
+}
+
+@media (min-width: 992px)
+{
+	body
+	{
+		background-image: url(/images/SpiralT.gif);
+		background-repeat: repeat-y;
+	}
+
+	h1 { font-size: 36px; }
+	h2 { font-size: 33px; }
+	h3 { font-size: 30px; }
+	.dds { font-size: xx-large; }
+	.dds2 { font-size: larger; }
+}
